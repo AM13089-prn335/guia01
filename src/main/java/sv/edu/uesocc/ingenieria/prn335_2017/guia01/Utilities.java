@@ -7,7 +7,11 @@ package sv.edu.uesocc.ingenieria.prn335_2017.guia01;
  */
 public class Utilities {
      
-    
+    /**
+     * 
+     * @param texto
+     * @return el metodo resume lee las primeras 30 caracteres
+     */
     public String getResume(String texto){
         
         String cadena="";
@@ -48,7 +52,12 @@ public class Utilities {
     
     }
 
-    
+    /**
+     * 
+     * @param frase
+     * @param texto
+     * @return el metodo contarcoincidencias de una frase 
+     */
 public int ContarCoincidencias(String frase,String texto){
     
     int contar=0;
